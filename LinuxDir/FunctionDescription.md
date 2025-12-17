@@ -21,7 +21,6 @@ int main(void ){
     perror("unlink");
     return 1;
 }
-
     puts("file unlinked");
     return 0;
 }
